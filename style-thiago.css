@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    outline: none;
+    font-weight: 300, 400, 600;
+}
+
+body {
+    background: hsl(217, 54%, 11%);
+    display: block;
+}
+
+main {
+
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    display: block;
+    margin: 60px auto;
+    width: 400px;
+    height: 700px;
+    font-size: 20px;
+    color: hsl(215, 51%, 70%);
+
+
+}
+
+.Equilibrium {
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+
+}
+
+.Equilibrium:hover {
+
+    opacity: 0.2;
+}
+
+h1 {
+    color: azure;
+    font-size: 25px;
+    margin: 20px 20px;
+    cursor: pointer;
+
+}
+
+h1:hover {
+    color: hsl(178, 100%, 50%)
+}
+
+
+p {
+    font-size: 20px;
+    color: hsl(215, 51%, 70%);
+    margin: 20px;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.eth {
+    color: hsl(178, 100%, 50%);
+    font-size: 20px;
+    margin: 20px;
+
+}
+
+.days {
+    color: hsl(215, 51%, 70%);
+    font-size: 20px;
+    margin-left: 20px;
+
+
+}
+
+#avatar {
+
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+#img-avatar {
+    width: 40px;
+    height: 40px;
+    margin: 0 20px;
+    border: 1px solid #ffffff;
+    border-radius: 40px;
+
+}
+
+
+
+span {
+    color: azure;
+    cursor: pointer;
+}
+
+span:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+@media (min-width: 375px) {}
